@@ -20,17 +20,11 @@ At least one zim file. Here's one source, http://download.kiwix.org/zim/wikipedi
 
 What would we like you to do?
 -----------------------------
-If you want to work on automating tests: Fork this repository, work on your copy of the respository, and send us pull requests when you've got something to share.
-
-Bonus points: online CI, for instance travis-ci.org integrates well with github projects.
-
-If you want to report bugs, feature requests, quirks, etc. file them here https://github.com/Bug-Bash/selenium-kiwix/issues *Before you file* please check for known (reported) [bugs](http://sourceforge.net/p/kiwix/bugs/ "List of Kiwix bugs on SourceForge"), read the [discussions](http://sourceforge.net/p/kiwix/discussion/ "Discussions on SourceForge for Kiwix"), etc.
+   * If you want to work on automating tests: Fork this repository, work on your copy of the respository, and send us pull requests when you've got something to share.
+   * Bonus points: online CI, for instance travis-ci.org integrates well with github projects.
+   * If you want to report bugs, feature requests, quirks, etc. file them here https://github.com/Bug-Bash/selenium-kiwix/issues *Before you file* please check for known (reported) [bugs](http://sourceforge.net/p/kiwix/bugs/ "List of Kiwix bugs on SourceForge"), read the [discussions](http://sourceforge.net/p/kiwix/discussion/ "Discussions on SourceForge for Kiwix"), etc.
 
 Test Automation
 ===============
-
-
-
-
-
+Yes please, particularly for the Android app and the kiwix-serve web server. Your choice of test automation framework, however it'll need to be freely available and able to be used free of charge. Bonus points for well structured, maintainable automated tests that others can read and comprehend.  
 
