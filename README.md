@@ -15,7 +15,8 @@ Suggested approaches include:
    * Providing translations, especially for incompletely translated locales http://sourceforge.net/p/kiwix/kiwix/ci/master/tree/android/res/
 
 What do you need?
-At least one of the kiwix applications. 
+At least one of the kiwix applications. The homepage of the kiwix project http://kiwix.org includes several links on the right side of the page. The first includes the enormous wikipedia zim file in English, so skip that unless you have lots of fast internet bandwidth. Instead find the Download Kiwix 'button', the web page attempts to detect your operating system in order to recommend the appropriate download for your computer.   
+
 At least one zim file. Here's one source, http://download.kiwix.org/zim/wikipedia/ people at the conference can also get them in the E Square room.
 
 What would we like you to do?
