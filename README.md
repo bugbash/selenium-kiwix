@@ -18,6 +18,14 @@ What do you need?
 At least one of the kiwix applications. 
 At least one zim file. Here's one source, http://download.kiwix.org/zim/wikipedia/ people at the conference can also get them in the E Square room.
 
+What would we like you to do?
+-----------------------------
+If you want to work on automating tests: Fork this repository, work on your copy of the respository, and send us pull requests when you've got something to share.
+
+Bonus points: online CI, for instance travis-ci.org integrates well with github projects.
+
+If you want to report bugs, feature requests, quirks, etc. file them here https://github.com/Bug-Bash/selenium-kiwix/issues *Before you file* please check for known (reported) [bugs](http://sourceforge.net/p/kiwix/bugs/ "List of Kiwix bugs on SourceForge"), read the [discussions](http://sourceforge.net/p/kiwix/discussion/ "Discussions on SourceForge for Kiwix"), etc.
+
 Test Automation
 ===============
 
