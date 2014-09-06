@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Conf [
+<!ELEMENT Conf (Data+)>
+<!ATTLIST Data environment CDATA #REQUIRED>
+<!ELEMENT Data (Pages)>
+<!ELEMENT Pages (Page+)>
+<!ATTLIST Page name CDATA #REQUIRED>
+]>
+
+<Conf>
+	<Data environment="local">
+		<Pages>
+			<Page name="LibP">
+				<Url>http://localhost:8000/</Url>
+				<ZimF>Ray Charles;ICD-10</ZimF>
+			</Page>
+			<Page name="ContP">
+				<Title>Table of Contents</Title>
+				<ErrMess>No result were found for</ErrMess>
+			</Page>
+		</Pages>
+	</Data>
+
+	<!-- <Data environment="local">
+		<Pages>
+			<Page name="LibP">
+				<url>http://localhost:8000/</url>
+				<ZimF>Ray Chales</ZimF>
+			</Page>
+			<Page name="ContP">
+				<Title>table of contents</Title>
+			</Page>
+		</Pages>
+	</Data> -->
+	
+</Conf>
