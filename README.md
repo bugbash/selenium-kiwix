@@ -1,3 +1,9 @@
+TODO
+----
+
+* Run kiwix-serve from project itself using ProcessBuilder as on option
+* Integrate with Travis 
+
 selenium-kiwix
 ==============
 
