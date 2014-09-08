@@ -83,5 +83,14 @@
 			</plugin>
 		</plugins>
 	</build>
-  
+  <repositories>
+    <repository>
+        <id>omelet</id>
+        <url>https://raw.github.com/springer-opensource/omelet/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
 </project>
