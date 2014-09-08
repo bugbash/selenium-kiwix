@@ -67,11 +67,12 @@
 				<executions>
 					<execution>
 						<id>process-classes</id>
-						<phase>process-classes</phase>
+						<phase>compile</phase>
 						<configuration>
 							<target>
 								<chmod file="target/classes/chromedriver" perm="755" />
 								<chmod file="target/classes/BrowserStackLocal" perm="755" />
+								<chmod file="src/main/resources/kiwix-serve" perm="755" />
 							</target>
 						</configuration>
 						<goals>
