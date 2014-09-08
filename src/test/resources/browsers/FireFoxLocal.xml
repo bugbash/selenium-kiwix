@@ -27,17 +27,13 @@
     		os="WINDOWS"
         	osVersion="xp"
         	browserName="chrome"
-       	 	browserVersion="28"
-    		remoteFlag = "false"
-    		bsSwitch = "false"/>
+       	 	browserVersion="28"/>
         
         <ClientEnvironment
     		os="WINDOWS"
         	osVersion="xp"
         	browserName="firefox"
-        	browserVersion="28"
-    		remoteFlag = "false"
-    		bsSwitch = "false"/>
+        	browserVersion="28"/>
        
 </ClientEnvironments>
 <!-- remoteURL = "your can enter after switching remoteFlag on and bsSwitch off"

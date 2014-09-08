@@ -20,7 +20,7 @@ public class FrontPageTest extends BaseServerSetUp {
 		PageObjectFactory pof = new PageObjectFactory(
 				Driver.getDriver(browserConf), prop);
 		sassert.assertEquals(pof.libraryPage().load().isLoaded()
-				.countZimFileLoaded(), "2", "Check for the count of titles");
+				.countZimFileLoaded(), "1", "Check for the count of titles");
 		sassert.assertAll();
 	}
 

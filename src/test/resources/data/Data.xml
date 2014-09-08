@@ -13,7 +13,7 @@
 		<Pages>
 			<Page name="LibP">
 				<Url>http://localhost:8000/</Url>
-				<ZimF>Ray Charles;ICD-10</ZimF>
+				<ZimF>Ray Charles</ZimF>
 			</Page>
 			<Page name="ContP">
 				<Title>Table of Contents</Title>
