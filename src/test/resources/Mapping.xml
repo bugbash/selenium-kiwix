@@ -25,7 +25,7 @@
 
 <Mapping>
 
-	<Package name="kiwix.server.test" clientEnvironment="browsers/FireFoxLocal.xml" testData="data/Data.xml" runStrategy="Optimal">	
+	<Package name="kiwix.server.test" clientEnvironment="browsers/FireFoxLocal.xml;browsers/Mobile.xml" testData="data/Data.xml" runStrategy="Optimal">	
 	<Class name="ada"></Class>
 	</Package>
 	

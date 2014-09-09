@@ -13,7 +13,7 @@ import com.springer.omelet.data.IProperty;
 import com.springer.omelet.driver.Driver;
 import com.springer.omelet.testng.support.SAssert;
 
-public class ZimHomePageTest {
+public class ZimHomePageTest extends BaseServerSetUp {
 	
 	SAssert sassert = new SAssert();
 	
@@ -36,7 +36,7 @@ public class ZimHomePageTest {
 	}
 	
 	@Test(dataProviderClass = com.springer.omelet.data.DataProvider.class, dataProvider = "Data", enabled = true)
-	public void verifyRealTimeSearchWorks(IBrowserConf browserConf,IProperty prop){
+	public void verifyAutoCompleteSearchWorks(IBrowserConf browserConf,IProperty prop){
 		PageObjectFactory pof = new PageObjectFactory(Driver.getDriver(browserConf), prop);
 		pof.libraryPage().load().isLoaded().loadZimFile(0);;
 		List<WebElement> searchResult = pof.contentPage().verifyAjaxSearchResult("Ray");
@@ -45,7 +45,7 @@ public class ZimHomePageTest {
 		sassert.assertAll();
 	}
 	@Test(dataProviderClass = com.springer.omelet.data.DataProvider.class, dataProvider = "Data", enabled = true)
-	public void verifyIfRealTimeSearch_Says_NoResultFound_When_NothingPresent(IBrowserConf browserConf,IProperty prop){
+	public void verifyIfAutoComplete_Says_NoResultFound_When_NothingPresent(IBrowserConf browserConf,IProperty prop){
 		PageObjectFactory pof = new PageObjectFactory(Driver.getDriver(browserConf), prop);
 		pof.libraryPage().load().isLoaded().loadZimFile(0);;
 		String randomSearchString = UUID.randomUUID().toString();
@@ -59,7 +59,7 @@ public class ZimHomePageTest {
 		sassert.assertAll();
 	}
 	@Test(dataProviderClass = com.springer.omelet.data.DataProvider.class, dataProvider = "Data", enabled = true)
-	public void verifyClickOnRealTimeSearchWorks(IBrowserConf browserConf,IProperty prop){
+	public void verifyClickOnAutoCompleteSearchWorks(IBrowserConf browserConf,IProperty prop){
 		PageObjectFactory pof = new PageObjectFactory(Driver.getDriver(browserConf), prop);
 		pof.libraryPage().load().isLoaded().loadZimFile(0);;
 		int index = 1;

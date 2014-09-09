@@ -67,11 +67,12 @@
 				<executions>
 					<execution>
 						<id>process-classes</id>
-						<phase>process-classes</phase>
+						<phase>compile</phase>
 						<configuration>
 							<target>
 								<chmod file="target/classes/chromedriver" perm="755" />
 								<chmod file="target/classes/BrowserStackLocal" perm="755" />
+								<chmod file="src/main/resources/kiwix-serve" perm="755" />
 							</target>
 						</configuration>
 						<goals>
@@ -82,5 +83,14 @@
 			</plugin>
 		</plugins>
 	</build>
-  
+  <repositories>
+    <repository>
+        <id>omelet</id>
+        <url>https://raw.github.com/springer-opensource/omelet/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
 </project>

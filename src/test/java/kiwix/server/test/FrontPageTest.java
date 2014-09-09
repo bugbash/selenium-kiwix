@@ -11,7 +11,7 @@ import com.springer.omelet.data.IProperty;
 import com.springer.omelet.driver.Driver;
 import com.springer.omelet.testng.support.SAssert;
 
-public class FrontPageTest {
+public class FrontPageTest extends BaseServerSetUp {
 	SAssert sassert = new SAssert();
 
 	@Test(dataProviderClass = com.springer.omelet.data.DataProvider.class, dataProvider = "Data", enabled = true)
@@ -20,7 +20,7 @@ public class FrontPageTest {
 		PageObjectFactory pof = new PageObjectFactory(
 				Driver.getDriver(browserConf), prop);
 		sassert.assertEquals(pof.libraryPage().load().isLoaded()
-				.countZimFileLoaded(), "2", "Check for the count of titles");
+				.countZimFileLoaded(), "1", "Check for the count of titles");
 		sassert.assertAll();
 	}
 
@@ -29,16 +29,13 @@ public class FrontPageTest {
 		// Only Check if the list have the titles thats it no need to check the
 		// count
 		
-		String title1 = prop.getValue(Data_Enum.LibP_ZimF).split(";")[0];
-		String title2 = prop.getValue(Data_Enum.LibP_ZimF).split(";")[1];
+		String title1 = prop.getValue(Data_Enum.LibP_ZimF);
 		PageObjectFactory pof = new PageObjectFactory(
 				Driver.getDriver(browserConf), prop);
 		List<String> returnTitles = pof.libraryPage().load().isLoaded()
 				.getZimFileTitles();
 		sassert.assertTrue(returnTitles.contains(title1), "Check if title:"
 				+ title1 + " is present");
-		sassert.assertTrue(returnTitles.contains(title2), "Check if title:"
-				+ title2 + " is present");
 		sassert.assertAll();
 	}
 

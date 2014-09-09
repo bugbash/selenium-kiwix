@@ -15,8 +15,9 @@
 	<test name="KiwixServer" preserve-order="true" parallel="methods"
 		thread-count="2">
 		<classes>
-			<!-- <class name="kiwix.server.test.FrontPageTest"></class> -->
+			<class name="kiwix.server.test.FrontPageTest"></class>
 			<class name="kiwix.server.test.ZimHomePageTest"></class>
+			<class name="kiwix.server.test.TestClass"></class>
 		</classes>
 
 	</test>
