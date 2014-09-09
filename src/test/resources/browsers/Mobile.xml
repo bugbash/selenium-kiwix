@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ClientEnvironments [
+<!ELEMENT ClientEnvironments (ClientEnvironment+)>
+<!ATTLIST ClientEnvironment platform CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment mobileTest CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment device CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment os CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment osVersion CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment remoteFlag CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment browserName CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment browserVersion CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment remoteURL CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment bsSwitch CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment bs_userName CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment bs_key CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment bs_localTesting CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment bs_urls CDATA #IMPLIED>
+<!ATTLIST ClientEnvironment name CDATA #IMPLIED>
+
+]>
+<ClientEnvironments>
+      <!--   <ClientEnvironment
+     		platform = "WINDOWS"
+     		mobileTest = "false"
+     		device = "None"
+    		os="WINDOWS"
+        	osVersion="xp"
+        	browserName="firefox"
+       	 	browserVersion="28"
+    		remoteFlag = "false"
+    		remoteURL = "your can enter after switching remoteFlag on and bsSwitch off"
+    		bsSwitch = "false"
+    		bs_userName = "yourUserName"
+    		bs_key = "yourPassword"/> -->
+        
+        <ClientEnvironment
+    		os="WINDOWS"
+        	osVersion="xp"
+        	browserName="android"
+    		platform = "ANDROID"
+    		device = "Google Nexus 7"/>
+    		
+       
+</ClientEnvironments>
