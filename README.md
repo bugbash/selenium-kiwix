@@ -2,9 +2,9 @@ TODO
 [![Build Status](https://travis-ci.org/kapilag/selenium-kiwix.svg?branch=master)](https://travis-ci.org/kapilag/selenium-kiwix)
 ----
 
-* Run kiwix-serve from project itself using ProcessBuilder as on option
-* Integrate with Travis 
-* Currently using open source library Omelet(https://github.com/springer-opensource/omelet) which is not published to maven central , need to build from source
+* ~~Run kiwix-serve from project itself using ProcessBuilder as on option~~
+* ~~Integrate with Travis~~
+* ~~Currently using open source library Omelet(https://github.com/springer-opensource/omelet) which is not published to maven central , need to build from source~~ . As of now Artifacts published to github but soon will be on mvn central
 * Offcourse better naming to test cases and files
 
 selenium-kiwix
