@@ -1,3 +1,11 @@
+TODO
+----
+
+* Run kiwix-serve from project itself using ProcessBuilder as on option
+* Integrate with Travis 
+* Currently using open source library Omelet(https://github.com/springer-opensource/omelet) which is not published to maven central , need to build from source
+* Offcourse better naming to test cases and files
+
 selenium-kiwix
 ==============
 
