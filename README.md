@@ -1,4 +1,5 @@
 TODO
+[![Build Status](https://travis-ci.org/kapilag/selenium-kiwix.svg?branch=master)](https://travis-ci.org/kapilag/selenium-kiwix)
 ----
 
 * Run kiwix-serve from project itself using ProcessBuilder as on option
